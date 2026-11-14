@@ -101,34 +101,34 @@ export default defineConfig({
           },
           {
             text: "Github 源码",
-            link: "https://github.com/Kele-Bingtang/teek-design-vue3",
+            link: "https://github.com/teekhub/teek-design-vue3",
           },
           {
             text: "Gitee 源码",
-            link: "https://gitee.com/kele-bingtang/teek-design-vue3",
+            link: "https://gitee.com/teekhub/teek-design-vue3",
           },
           {
             text: "精简版源码",
-            link: "https://github.com/Kele-Bingtang/teek-design-vue3-template",
+            link: "https://github.com/teekhub/teek-design-vue3-template",
           },
           {
             text: "文档源码",
-            link: "https://github.com/Kele-Bingtang/teek-design-vue3-docs",
+            link: "https://github.com/teekhub/teek-design-vue3-docs",
           },
         ],
       },
       {
         text: "2.1.1",
         items: [
-          { text: "历史版本", link: "https://github.com/Kele-Bingtang/teek-design-vue3/releases" },
-          { text: "更新日志", link: "https://github.com/Kele-Bingtang/teek-design-vue3/blob/main/CHANGELOG.md" },
+          { text: "历史版本", link: "https://github.com/teekhub/teek-design-vue3/releases" },
+          { text: "更新日志", link: "https://github.com/teekhub/teek-design-vue3/blob/main/CHANGELOG.md" },
         ],
       },
     ],
     socialLinks: [
       {
         icon: "github",
-        link: "https://github.com/Kele-Bingtang/teek-design-vue3-docs",
+        link: "https://github.com/teekhub/teek-design-vue3-docs",
       },
     ],
     search: {
@@ -136,7 +136,7 @@ export default defineConfig({
     },
     editLink: {
       text: "在 GitHub 上编辑此页",
-      pattern: "https://github.com/Kele-Bingtang/teek-design-vue3-docs/edit/master/docs/:path",
+      pattern: "https://github.com/teekhub/teek-design-vue3-docs/edit/master/docs/:path",
     },
   },
 });

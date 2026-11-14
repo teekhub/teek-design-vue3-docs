@@ -14,7 +14,7 @@ hero:
       link: https://vue3-design.teek.top/
     - theme: alt
       text: 项目仓库 📚
-      link: https://github.com/Kele-Bingtang/teek-design-vue3
+      link: https://github.com/teekhub/teek-design-vue3
   image:
     src: /logo.png
     alt: Teek Design Vue3

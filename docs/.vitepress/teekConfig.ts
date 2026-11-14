@@ -7,7 +7,7 @@ export const teekConfig = defineTeekConfig({
       defaultMode: "bothWidthAdjustable",
     },
   },
-  author: { name: "Teeker", link: "https://github.com/Kele-Bingtang/teek-design-vue3-docs" },
+  author: { name: "Teeker", link: "https://github.com/teekhub/teek-design-vue3-docs" },
   docAnalysis: {
     createTime: "2021-10-19",
   },
