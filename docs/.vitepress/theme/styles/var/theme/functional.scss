@@ -12,6 +12,7 @@
   --#{$teek-namespace}-color-error: #dd5c27;
   --#{$teek-namespace}-color-info: #5c667a;
   --#{$teek-namespace}-color-secondary: #0091ff;
+  --#{$teek-namespace}-color-white: #ffffff;
 
   @include generate-color-variants("primary", #395ae3);
   @include generate-color-variants("success", #0b9e40);
@@ -33,6 +34,7 @@
   --#{$teek-namespace}-color-error: #ff7e5f;
   --#{$teek-namespace}-color-info: #a3adbb;
   --#{$teek-namespace}-color-secondary: #449de0;
+  --#{$teek-namespace}-color-black: #000000;
 
   @include generate-color-variants("primary", #6d94e6);
   @include generate-color-variants("success", #4cd890);

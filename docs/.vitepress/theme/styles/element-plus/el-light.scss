@@ -10,8 +10,6 @@ $component-size: (
 // 自定义 ElementPlus 亮色主题
 @forward "element-plus/theme-chalk/src/common/var.scss" with (
   $colors: (
-    "white": #ffffff,
-    "black": #000000,
     "primary": (
       "base": #395ae3,
     ),
