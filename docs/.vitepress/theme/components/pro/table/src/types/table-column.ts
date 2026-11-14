@@ -68,7 +68,7 @@ export type TableScope<T extends Record<string, any> = any> = {
    */
   expanded: boolean;
   /**
-   * 表格  _self
+   * 表格 _self
    */
   _self: Record<string, any>;
 };

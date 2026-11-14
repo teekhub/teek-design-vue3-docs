@@ -11,12 +11,11 @@ import {
   ElCheckbox,
   ElIcon,
 } from "element-plus";
-import { Coin, Operation, Download, Setting, Refresh } from "@element-plus/icons-vue";
+import { Coin, Operation, Download, Setting, Refresh, FullScreen } from "@element-plus/icons-vue";
 import { useNamespace } from "@/composables";
 import { defaultToolButton, defaultTooltipProps, TableColumnTypeEnum, TableSizeEnum, ToolButtonEnum } from "./helper";
 import { exportExcel } from "./plugins/table-head-export";
 import TableHeadColumnSetting from "./plugins/table-head-column-setting.vue";
-import Fullscreen from "@/components/pro/fullscreen.svg";
 
 import "./styles/table-head.scss";
 
@@ -346,7 +345,7 @@ defineExpose(expose);
               class="head__tool-button"
             >
               <slot name="fullscreen-icon">
-                <img :src="Fullscreen" style="max-width: 16px; height: 16px" class="no-preview" />
+                <el-icon><FullScreen /></el-icon>
               </slot>
             </el-button>
           </el-tooltip>

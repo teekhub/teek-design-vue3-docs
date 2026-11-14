@@ -343,7 +343,7 @@ defineExpose(expose);
   >
     <!-- 默认插槽 -->
     <slot name="default">
-      <template v-for="(column, index) in availableColumns" :key="column">
+      <template v-for="(column, index) in availableColumns" :key="column.prop">
         <!-- 功能列 -->
         <TableColumnType
           v-if="column.type"
